@@ -29,6 +29,7 @@ scp arduino@Danuno.local://home/arduino/logObj.txt .
 
 # Dockers
 
+Just for easy copy/paste, find here some useful commands in the context of development and follow updates in libraries, *etc.*
 
 ```zsh
 docker ps
@@ -40,6 +41,11 @@ Python libraries in docker detectobjcam-main-1
 
 ```zsh
 docker exec -it detectobjcam-main-1 pip list
+```
+or on two steps
+```zsh
+docker exec -it detectobjcam-main-1 bash
+pip list
 ```
 
 [`pip list` ouput](detectobjcam-main-1/pip_list.txt)
