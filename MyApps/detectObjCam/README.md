@@ -26,6 +26,9 @@ docker logs -f detectobjcam-main-1 >> logObj.txt
 scp arduino@Danuno.local://home/arduino/logObj.txt .
 ```
 
+# Tuning detector
+
+Tuning parameters of the UNO-Q object detector is difficult because the YOLOX model is embedded inside a precompiled Node runner. The model’s inference logic, including NMS IoU, input resolution, max detections, and class list, is baked into the container at build time. Python only communicates via WebSocket, so it can override confidence thresholds, but cannot modify internal YOLOX behavior. Edge Impulse packages the model as a binary blob, with thresholds applied internally. The container is immutable, optimized for stability, and App Lab does not expose the internal configuration. Only post-processing in Python or a custom Edge Impulse deployment allows parameter changes.
 
 # Dockers
 
