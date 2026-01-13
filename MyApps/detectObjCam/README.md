@@ -55,7 +55,7 @@ pip list
 
 ## Docker : detectobjcam-ei-video-obj-detection-runner-1 
 
-Not a python docker
+Not a python docker. This is the main YOLOX docker for object detection.
 
 ## File tree 
 
