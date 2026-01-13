@@ -1,0 +1,135 @@
+.
+├── ArduinoApps
+│   ├── detect_obj
+│   │   ├── app.yaml
+│   │   ├── assets
+│   │   │   ├── app.js
+│   │   │   ├── docs_assets
+│   │   │   │   └── thumbnail.png
+│   │   │   ├── fonts
+│   │   │   │   ├── fonts.css
+│   │   │   │   ├── Open Sans
+│   │   │   │   │   ├── OFL.txt
+│   │   │   │   │   └── OpenSans-VariableFont_wdth,wght.ttf
+│   │   │   │   └── Roboto
+│   │   │   │       ├── OFL.txt
+│   │   │   │       └── RobotoMono-VariableFont_wght.ttf
+│   │   │   ├── img
+│   │   │   │   ├── change.svg
+│   │   │   │   ├── download-icon.svg
+│   │   │   │   ├── favicon.png
+│   │   │   │   ├── icon-reset.svg
+│   │   │   │   ├── info.svg
+│   │   │   │   ├── RGB-Arduino-Logo_Color Inline Loop.svg
+│   │   │   │   ├── RGB-Arduino-Logo_Color Inline Loop.svg.license
+│   │   │   │   ├── sample.svg
+│   │   │   │   └── upload-icon.svg
+│   │   │   ├── index.html
+│   │   │   ├── libs
+│   │   │   │   └── socket.io.min.js
+│   │   │   └── style.css
+│   │   ├── python
+│   │   │   └── main.py
+│   │   └── README.md
+│   ├── detectobjcam
+│   │   ├── app.yaml
+│   │   ├── assets
+│   │   │   ├── app.js
+│   │   │   ├── docs_assets
+│   │   │   │   ├── hardware-setup.png
+│   │   │   │   ├── launch-app.png
+│   │   │   │   ├── special-detection.png
+│   │   │   │   └── video-object-detection.png
+│   │   │   ├── fonts
+│   │   │   │   ├── fonts.css
+│   │   │   │   ├── Open Sans
+│   │   │   │   │   ├── OFL.txt
+│   │   │   │   │   └── OpenSans-VariableFont_wdth,wght.ttf
+│   │   │   │   └── Roboto
+│   │   │   │       ├── OFL.txt
+│   │   │   │       └── RobotoMono-VariableFont_wght.ttf
+│   │   │   ├── img
+│   │   │   │   ├── barcode.svg
+│   │   │   │   ├── cat.webp
+│   │   │   │   ├── clock.webp
+│   │   │   │   ├── copy.svg
+│   │   │   │   ├── cup.webp
+│   │   │   │   ├── delete-scan.svg
+│   │   │   │   ├── dog.webp
+│   │   │   │   ├── hand.gif
+│   │   │   │   ├── icon-reset.svg
+│   │   │   │   ├── info.svg
+│   │   │   │   ├── lens.svg
+│   │   │   │   ├── link.svg
+│   │   │   │   ├── logo.svg
+│   │   │   │   ├── logo.svg.license
+│   │   │   │   ├── no-face.svg
+│   │   │   │   ├── phone.webp
+│   │   │   │   ├── plant.webp
+│   │   │   │   └── stars.svg
+│   │   │   ├── index.html
+│   │   │   ├── libs
+│   │   │   │   └── socket.io.min.js
+│   │   │   └── style.css
+│   │   ├── python
+│   │   │   └── main.py
+│   │   └── README.md
+│   ├── facedetectcam
+│   │   ├── app.yaml
+│   │   ├── assets
+│   │   │   ├── app.js
+│   │   │   ├── docs_assets
+│   │   │   │   ├── hardware-setup.png
+│   │   │   │   ├── launch-app.png
+│   │   │   │   └── video-face-detection.png
+│   │   │   ├── fonts
+│   │   │   │   ├── fonts.css
+│   │   │   │   ├── Open Sans
+│   │   │   │   │   ├── OFL.txt
+│   │   │   │   │   └── OpenSans-VariableFont_wdth,wght.ttf
+│   │   │   │   └── Roboto
+│   │   │   │       ├── OFL.txt
+│   │   │   │       └── RobotoMono-VariableFont_wght.ttf
+│   │   │   ├── img
+│   │   │   │   ├── barcode.svg
+│   │   │   │   ├── copy.svg
+│   │   │   │   ├── delete-scan.svg
+│   │   │   │   ├── hand.gif
+│   │   │   │   ├── icon-reset.svg
+│   │   │   │   ├── info.svg
+│   │   │   │   ├── lens.svg
+│   │   │   │   ├── link.svg
+│   │   │   │   ├── logo.svg
+│   │   │   │   ├── logo.svg.license
+│   │   │   │   ├── no-face.svg
+│   │   │   │   └── stars.svg
+│   │   │   ├── index.html
+│   │   │   ├── libs
+│   │   │   │   └── socket.io.min.js
+│   │   │   └── style.css
+│   │   ├── python
+│   │   │   └── main.py
+│   │   └── README.md
+│   ├── meteo_geneve
+│   │   ├── app.yaml
+│   │   ├── assets
+│   │   │   └── docs_assets
+│   │   │       ├── app-lab-run-app.png
+│   │   │       └── weather-forecast-banner.png
+│   │   ├── python
+│   │   │   └── main.py
+│   │   ├── README.md
+│   │   └── sketch
+│   │       ├── sketch.ino
+│   │       ├── sketch.yaml
+│   │       └── weather_frames.h
+│   └── toto
+│       ├── app.yaml
+│       ├── python
+│       │   └── main.py
+│       ├── README.md
+│       └── sketch
+│           ├── sketch.ino
+│           └── sketch.yaml
+├── logObj.txt
+└── lost+found  [error opening dir]
