@@ -17,6 +17,16 @@ Detected person, at 2026-01-13T13:53:16.453588+00:00 with confidence: 0.56424146
 ```
 where the four last integers are [x_min, y_min, x_max, y_max] of the detection bounding box.
 
+Extract the logs of the docker with
+```bash
+docker logs -f detectobjcam-main-1 >> logObj.txt
+```
+... and copy it out of the board with ...
+```bash
+scp arduino@Danuno.local://home/arduino/logObj.txt .
+```
+
+
 # Dockers
 
 
