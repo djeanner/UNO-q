@@ -12,6 +12,8 @@ This hybrid architecture allows integration between low-level hardware control a
 
 Despite this complexity, the board is remarkably quick to get running out of the box, even for users without prior Linux-on-embedded experience.
 
+[Example of application](MyApps/detectObjCam/README.md)
+
 ## Arduino App Lab
 
 The official development environment, **Arduino App Lab**, is still under active development (we used **version 0.3.2 in January 2026**), but it already works reasonably well. All provided example applications ran successfully without modification.
