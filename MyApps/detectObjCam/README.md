@@ -4,6 +4,8 @@ We started this project from the "Video Generic Object Detection" example from A
 
 Using a very poor webcam the analysis of a street seen from above identified most persons walking on the sidewalk but misses about half the cars passing through. Note the camera was not adapting to sun/dark.
 
+Not bad for 50 euro and 800 mA at 5 V.
+
 Mostly, we changed the following lines of main.py to log the detected objects.
 
 ```python

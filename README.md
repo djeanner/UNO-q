@@ -51,5 +51,7 @@ scp -rp arduino@192.168.1.167:ArduinoApps .
 echo "copy main python file for detectobjcam app"
 scp -rp arduino@192.168.1.167:ArduinoApps/detectobjcam/python/main.py .
 
+echo "Test camera"
+gst-launch-1.0 v4l2src device=/dev/video0 ! videoconvert ! v4l2h264enc ! filesink location=out.h264
 
 ```
